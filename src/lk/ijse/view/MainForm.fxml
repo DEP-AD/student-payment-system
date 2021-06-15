@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXRippler?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.MainFormController">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="57.0" prefHeight="343.0" prefWidth="600.0" style="-fx-background-color: #FFFFFF;" AnchorPane.topAnchor="50.0">
+         <children>
+            <JFXRippler layoutX="76.0" layoutY="172.0" prefHeight="120.0" prefWidth="180.0">
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="46.0" layoutY="94.0" text="Admin Login">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="53.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@assets/user.png" />
+                           </image></ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </JFXRippler>
+            <JFXRippler layoutX="340.0" layoutY="172.0" prefHeight="120.0" prefWidth="180.0">
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="51.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@assets/user.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="27.0" layoutY="94.0" text="Regular User Login" />
+                     </children></AnchorPane>
+               </children>
+            </JFXRippler>
+            <Label layoutX="85.0" layoutY="90.0" text="Student Payment System">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="85.0" fitWidth="200.0" layoutX="200.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/ijse%20logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="45.0" prefWidth="600.0" style="-fx-background-color: #0353FF;" />
+   </children>
+</AnchorPane>
